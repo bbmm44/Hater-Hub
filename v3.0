@@ -3,6 +3,11 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jen
 local Window = OrionLib:MakeWindow({Name = "Hater Hub | The Strongest Battlegrounds", HidePremium = false, IntroText = "Hater Hub", SaveConfig = true, ConfigFolder = "HaterConfig"})
 local IntroIcon = "rbxassetid://131129998"
 local Icon = "rbxassetid://131129998"
+Discord = {
+      Enabled = True, -- Prompt the user to join your Discord server if their executor supports it
+      Invite = "sqQ9Y9nKzF", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+
 
 OrionLib:MakeNotification({
 	Name = "NOTIFACATION",
