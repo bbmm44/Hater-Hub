@@ -4,6 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "Hater Hub | The Strongest Battlegrou
 local IntroIcon = "rbxassetid://131129998"
 local Icon = "rbxassetid://131129998"
 
+
 OrionLib:MakeNotification({
 	Name = "NOTIFACATION",
 	Content = "Have Fun!",
