@@ -1,0 +1,197 @@
+if game.PlaceId == 10449761463 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Hater Hub | The Strongest Battlegrounds", HidePremium = false, IntroText = "Hater Hub", SaveConfig = true, ConfigFolder = "HaterConfig"})
+IntroIcon = "rbxassetid://131129998"
+Icon = "rbxassetid://131129998"
+
+OrionLib:MakeNotification({
+	Name = "NOTIFACATION",
+	Content = "Have Fun!",
+	Image = "rbxassetid://131129998",
+	Time = 4
+})
+
+
+local InfoTab = Window:MakeTab({
+Name = "Info",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
+})
+
+InfoTab:AddParagraph("information","This scripthub was made by .H8ters. (DizzyHax). i had a really incredible time making this scipthub, you can find great movesets and universal scripts here. i hope you like it!")
+
+local MoveTab = Window:MakeTab({
+Name = "Movesets",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
+})
+
+MoveTab:AddButton({
+Name = "JIREN(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/sparksnaps/Jiren-Moveset-V2/refs/heads/main/Lua"))()
+      print("Jiren Activated")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "CosmicGarou(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/kT3Z8rse"))()
+      print("Cosmic Form Aquired")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "INVINCIBLE(saitama)",
+Callback = function()
+ loadstring(game:HttpGet("https://pastefy.app/BtDQqi2c/raw"))()
+      print("Dont Forget, im.. invincible")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "CID(saitama)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/sparksnaps/Lord-Shadow-Beta/refs/heads/main/Lua"))()
+      print("I Am Atomic")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "Arcaura(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+      print("Activated")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "Dio(garou)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+      print("Dio Selected")
+  end    
+})
+
+MoveTab:AddButton({
+Name = "Sans(tatsumaki)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
+      print("Sans Selected")
+  end    
+})
+
+
+local FreeTab = Window:MakeTab({
+Name = "Free Stuff",
+Icon = "rbxassetid://7625033282",
+PremiumOnly = false
+})
+
+FreeTab:AddButton({
+Name = "Free GokuMUI(emote)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/IdkRandomUsernameok/PublicAssets/refs/heads/main/Releases/MUI.lua"))()
+      print("MUI Activated")
+  end    
+})
+
+FreeTab:AddButton({
+Name = "Free Emotes(slots)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/tsbscripts/main/extraemoteslots.lua"))()
+      print("Activated")
+  end    
+})
+
+local UniTab = Window:MakeTab({
+Name = "Universal Scripts",
+Icon = "rbxassetid://131129998",
+PremiumOnly = false
+})
+
+UniTab:AddButton({
+Name = "Fly GUI",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+      print("Activated")
+  end    
+})
+
+UniTab:AddButton({
+Name = "godmode(may not work)",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Rawbr10/Roblox-Scripts/refs/heads/main/God%20Mode%20Script%20Universal"))()
+      print("Activated")
+  end    
+})
+
+
+UniTab:AddButton({
+Name = "Infinite Yield",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      print("Activated")
+  end    
+})
+
+local SetTab = Window:MakeTab({
+Name = "Settings",
+Icon = "rbxassetid://4483345998",
+PremiumOnly = false
+})
+
+SetTab:AddButton({
+Name = "Auto block/Black flash",
+Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
+      print("Black-Flash 'Em")
+  end    
+})
+
+SetTab:AddButton({
+	Name = "Auto Kyoto",
+	Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TokyozxcSpedy/AutoKyoto/refs/heads/main/AutoKyotoV2"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+	Name = "auto combo",
+	Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/XNKwIjUX/raw"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+	Name = "HBE",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Qwoqeex/Hitbox-Expander/refs/heads/main/Hitboxes"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+	Name = "ESP",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/bbmm44/ESP/refs/heads/main/v1"))()
+      		print("Activated")
+  	end    
+})
+
+SetTab:AddButton({
+	Name = "Inf Jump/fly",
+	Callback = function()
+	  loadstring(game:HttpGet("https://pastefy.app/v9VSOfM5/raw"))()
+      		print("Activated")
+  	end    
+})
+
+
+
+
+end
+OrionLib:Init()
